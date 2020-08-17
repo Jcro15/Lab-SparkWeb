@@ -1,11 +1,11 @@
 var api = (function () {
 
     function calculateStatistics (){
+        //var url='http://localhost:4567/calcular';
+        var url='https://whispering-lake-79074.herokuapp.com/calcular';
         var data=document.getElementById("data").value;
-        console.log(data);
         putData(data);
-        console.log(data)
-        axios.post('http://localhost:4567/calcular',data)
+        axios.post(url,data)
             .then(res => {
                 let json = JSON.parse(res.data);
                 $("#media").text("Media : "+json.media);

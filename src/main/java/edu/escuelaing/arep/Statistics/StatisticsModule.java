@@ -39,6 +39,11 @@ public class StatisticsModule {
         return standardDeviation ;
     }
 
+    /**
+     * Construye una linked list a partir de un arreglo de caracteres que representan números reales
+     * @param values una lista de caracteres que representan números reales
+     * @return una linkedlist de doubles correspondientes a los caracteres de entrada
+     */
     public static LinkedList<Double> buildList(String[] values){
         LinkedList<Double> linkedList=new LinkedList<>();
         for(int i=0;i< values.length;i++){
