@@ -1,4 +1,4 @@
-# AREP-Laboratorio 1- Ejercicio Mvn-Git
+# AREP-Laboratorio 2- Ejercicio Heroku-Spark
 
 El objetivo de este laboratorio crear un programa para calcular la media y 
 la desviación estándar de n números reales que se leen de una página web.
@@ -6,7 +6,7 @@ la desviación estándar de n números reales que se leen de una página web.
 Para esto se creó una implementación propia de una LinkedList y un módulo
 de estadísticas.Además se utilizó el micro-framework Spark para implementar
  una API-REST que comunica la página web con los servicios de la aplicación.
- Los detalles del diseño se pueden encontrar en el  documento [LabMvnGit.pdf](LabMvnGit.pdf)
+ Los detalles del diseño se pueden encontrar en el  documento [Informe de diseño.pdf](Informe de diseño.pdf)
 
 En la siguiente tabla se presentan los valores con los que se
 probará la implementación
@@ -62,6 +62,9 @@ la ubicación target\site\apidocs\index.html utilizando el comando
 ```
 mvn javadoc:javadoc
 ```
+
+## Enlace Heroku
+  [Despliegue en Heroku](https://whispering-lake-79074.herokuapp.com/)
 
 ## Construido con
 
